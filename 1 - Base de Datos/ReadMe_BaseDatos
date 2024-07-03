@@ -1,0 +1,26 @@
+### Dataset
+El dataset utilizado fue obtenido de Kaggle (https://www.kaggle.com/datasets/elemento/music-albums-popularity-prediction).
+
+*Descripción de atributos* 
+
+Se presenta una lista con la descripción de las columnas del dataset. NOTA: En el caso de los atributos descriptivos (atributos desde Name hasta Time Signature) los mismos vienen en 3 columnas cada uno. Por ejemplo, se tienen Name_0, Name_1 y Name_2, que representan el nombre de la primera, segunda y tercera canción del álbum respectivamente. 
+
+- ID: Variable de identificación de cada registro
+- Name: Nombre del álbum
+- Release Date: Fecha en que se presento el álbum
+- Artists: Artistas del álbum
+- Total Tracks: Numero total de canciones en el álbum
+- T_name: Nombre de la canción 
+- Duration: Duracion de la canción en ms (milisegundos)
+- Danceability: Atributo que describe que tan bailable es la canción. Su valor esta en el rango de [0,1], donde ‘0’ es menos bailable y ‘1’ es lo mas bailable.
+- Energy: Atributo que describe la intensidad de la canción. Su valor esta en el rango de [0,1], siendo ‘1’ el valor para canciones mas energéticas
+- Key: Tonalidad en que esta escrita la canción. Esta variable es un entero entre [0,11], donde la tonalidad Do = 0, D#=1 y asi hasta Si=11.
+- Mode: Atributo que indica la Modalidad de la canción. Toma valor “0” si la modalidad es Menor y “1” si la modalidad es Mayor
+- Speechiness: Atributo que detecta la presencia de discursos dentro de una canción. Su valor esta en el rango de [0,1]. Cuanto mas exclusivamente hablada sea la canción, mas cercano a 1 sera el valor de este atributo. 
+- Acousticness: Atributo que detecta si una canción es acústica. Su valor esta en el rango de [0,1]. Valores cercanos a 1 representan canciones acústicas
+- Instrumentalness: Atributo que detecta la ausencia de voz en la canción. Su valor esta en el rango de [0,1]. Valores cercanos a 1 representan canciones completamente instrumentales. 
+- Liveness: Atributo que detecta la presencia de una audiencia en la canción. Su valor esta en el rango de [0,1]. Valores cercanos a 1 representan canciones en vivo. 
+- Valence: Atributo que busca describir la positividad musical de la canción. Su valor esta en el rango de [0,1]. Valores cercanos a 1 representan canciones mas “positivas”.
+- Tempo: Tempo estimado de la canción en pulsaciones por minuto (beats per minute BPM).
+- Time Signature: Marca de tiempo de la canción (es la forma de especificar cuantas pulsaciones hay en un compas). 
+- Popularity: VARIABLE TARGET. Valor de popularidad del Album. Su valor esta en el rango de [0,100]
